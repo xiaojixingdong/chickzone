@@ -1,0 +1,18 @@
+name = "chickzone"
+main = "worker.js"
+compatibility_date = "2026-09-27"
+
+# ── D1 数据库绑定（变量名必须为 DB，不要改）──
+[[d1_databases]]
+binding = "DB"
+database_name = "chickzone-db"
+database_id = "REPLACE_WITH_YOUR_DATABASE_ID"
+
+# ── 明文变量（敏感变量用 wrangler secret put 添加，不要写这里）──
+[vars]
+TURNSTILE_SITE_KEY = ""
+AI_BASE = "https://api.deepseek.com"
+AI_MODEL = "deepseek-chat"
+AI_DAILY_LIMIT = "100"
+BOT_ENABLED = "1"
+INDEXNOW_KEY = ""
