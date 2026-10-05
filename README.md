@@ -1,6 +1,8 @@
 # Chick Zone
 
-一个部署在 Cloudflare Workers + D1 上的轻量个人社区站。单文件 Worker，复制粘贴即可运行。
+**在线体验：https://chickchat.cc.cd** ｜ 一个部署在 Cloudflare Workers + D1 上的轻量个人社区站。单文件 Worker，复制粘贴即可运行。
+
+> 不想自己部署？直接来站点看看：<https://chickchat.cc.cd>
 
 ## 功能一览
 
